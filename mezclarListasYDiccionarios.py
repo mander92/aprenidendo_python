@@ -18,6 +18,6 @@ print(personas[0].get('nombre'))
 print(personas[1].get('edad'))
 
 #Recorreo los elementos de la lista
-for contador, persona in enumerate(personas):
+for contador, persona in enumerate(personas):#Esta funcion es muy importrante en este lenguaje
     print(f'Persona: {contador}: {persona.get('nombre')}')
 
