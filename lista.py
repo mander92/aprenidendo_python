@@ -53,6 +53,38 @@ print(numeros[:2]) #Por default si no se espcidica inicio será el índice 0
 lista_copiada = numeros[:]
 print(lista_copiada)
 
+#Métodos de las listas
+#length
+largo_lista = len(numeros)
+#agregar un nuevo elemento al final de la lista
+numeros.append(600)
+#insertar nuevo elementos en el indice deseado
+numeros.insert(2,50)#los valores a partir de ese indice se moveran hacia la derecha y no habra perdida de datos 
+
+##Eliminar un valor de la lista 
+numeros.remove(600) #Solo indicamos en valor del elemento que queremos eliminar y no el indice 
+
+#En caso de que hubiera elementos repetido se eliminará el primero que encuentre
+
+#Concatenar listas 
+
+nueva_lista = lista_copiada + numeros
+print(f'Lista concatenada: {nueva_lista}')
+
+#Eliminar un elemento por su indice 
+del numeros[3] #removemos el valor en el indice 3
+print(numeros)
+
+#Eliminar lista completa 
+numeros[:] = []
+print(numeros) #no contiene elementos en esta linea
+
+#Eliminar variables 
+del numeros 
+
+
+
+
 
 
 
