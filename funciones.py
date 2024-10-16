@@ -1,8 +1,8 @@
 print('*** Funciones en Python ***')
 
-#Definir una función 
-def saludar():
-    print('Hola mundo')
+#Importar una función
+from modulo_funcion import saludar
+
 
 saludar() #Llamamos a la función 
 
