@@ -7,5 +7,5 @@ def super_heroe(nombre, *args):
 
 super_heroe('SpiderMan', 'Instinto Arancnido', 'tela de araña')
 
-#Es opcional enviar argumentos a variables 
+#Es opcional enviar argumentos a variables. La tupla aparecerá vacia
 super_heroe('Mario')
